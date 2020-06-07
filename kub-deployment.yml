@@ -34,7 +34,7 @@ spec:
             secretName: demo-service-account
       containers:
         - name: demo-service
-          image: gcr.io/sample/demo-service
+          image: gcr.io/[PROJECT_ID]/demo-service
           volumeMounts:
             - name: credentials
               mountPath: "/etc/credentials"

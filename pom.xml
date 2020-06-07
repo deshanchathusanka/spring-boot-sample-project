@@ -59,7 +59,7 @@
 				<version>0.9.6</version>
 				<configuration>
 					<to>
-						<image>gcr.io/sample/demo-service</image>
+						<image>gcr.io/[PROJECT_ID]/demo-service</image>
 					</to>
 				</configuration>
 			</plugin>
