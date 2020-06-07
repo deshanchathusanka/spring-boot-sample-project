@@ -34,7 +34,7 @@ spec:
             secretName: demo-service-account
       containers:
         - name: demo-service
-          image: saturnism/spring-gcp-guestbook-service:latest
+          image: gcr.io/[PROJECT_ID]/demo-service
           volumeMounts:
             - name: credentials
               mountPath: "/etc/credentials"
