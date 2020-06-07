@@ -5,6 +5,7 @@ metadata:
     app: demo-service
   name: demo-service
 spec:
+  type: LoadBalancer
   ports:
     - name: http
       port: 8080
@@ -34,7 +35,7 @@ spec:
             secretName: demo-service-account
       containers:
         - name: demo-service
-          image: gcr.io/qwiklabs-gcp-02-cbf7d4831ec7/demo-service
+          image: gcr.io/qwiklabs-gcp-02-cbf7d4831ec7/demo-service-1
           volumeMounts:
             - name: credentials
               mountPath: "/etc/credentials"
