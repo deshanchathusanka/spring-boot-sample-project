@@ -59,7 +59,7 @@
 				<version>0.9.6</version>
 				<configuration>
 					<to>
-						<image>gcr.io/[PROJECT_ID]/guestbook-service</image>
+						<image>gcr.io/qwiklabs-gcp-02-cbf7d4831ec7/demo-service</image>
 					</to>
 				</configuration>
 			</plugin>

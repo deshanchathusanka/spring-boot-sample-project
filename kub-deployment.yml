@@ -34,7 +34,7 @@ spec:
             secretName: demo-service-account
       containers:
         - name: demo-service
-          image: gcr.io/[PROJECT_ID]/guestbook-service
+          image: gcr.io/qwiklabs-gcp-02-cbf7d4831ec7/demo-service
           volumeMounts:
             - name: credentials
               mountPath: "/etc/credentials"
